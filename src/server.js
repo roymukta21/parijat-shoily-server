@@ -6,7 +6,6 @@ const connectDB = require("./config/db");
 const productRoutes = require("./routes/productRoutes");
 
 dotenv.config();
-
 connectDB();
 
 const app = express();
